@@ -127,6 +127,7 @@
 -define:MIRROR_85_OR_NEWER
 -define:MIRROR_86_OR_NEWER
 -define:MIRROR_89_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Mirror/Plugins/BouncyCastle/BouncyCastle.Cryptography.dll"
@@ -348,7 +349,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.CompilerSymbols.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Components.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Examples.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Hosting.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Mirror.Transports.ref.dll"
@@ -379,16 +379,34 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unity/Unity Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/Unity Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/AutoNetworkManager.cs"
-"Assets/Scripts/BackgroundMusicController.cs"
-"Assets/Scripts/ChatManager.cs"
-"Assets/Scripts/ChatMessage.cs"
-"Assets/Scripts/LoginManager.cs"
-"Assets/Scripts/Main.cs"
-"Assets/Scripts/MainSceneController.cs"
-"Assets/Scripts/NetworkManagerUI.cs"
-"Assets/Scripts/RegistirationManager.cs"
-"Assets/Scripts/Warning.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/Components/Crouch.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/Components/GroundCheck.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/Components/Jump.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/Components/Zoom.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/FirstPersonLook.cs"
+"Assets/Prefabs/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Scripts/Environment Scripts/DoorQuiz.cs"
+"Assets/Scripts/Environment Scripts/Questions.cs"
+"Assets/Scripts/Environment Scripts/QuizManager.cs"
+"Assets/Scripts/Player Scripts/Billboard.cs"
+"Assets/Scripts/Player Scripts/PlayerController.cs"
+"Assets/Scripts/Player Scripts/PlayerData.cs"
+"Assets/Scripts/Player Scripts/PlayerModeManager.cs"
+"Assets/Scripts/Player Scripts/UsernameDisplay.cs"
+"Assets/Scripts/Scene Scripts/AutoNetworkManager.cs"
+"Assets/Scripts/Scene Scripts/BackgroundMusicController.cs"
+"Assets/Scripts/Scene Scripts/ChatManager.cs"
+"Assets/Scripts/Scene Scripts/ChatMessage.cs"
+"Assets/Scripts/Scene Scripts/CustomNetworkManager.cs"
+"Assets/Scripts/Scene Scripts/GameManager.cs"
+"Assets/Scripts/Scene Scripts/LoginManager.cs"
+"Assets/Scripts/Scene Scripts/Main.cs"
+"Assets/Scripts/Scene Scripts/MainSceneController.cs"
+"Assets/Scripts/Scene Scripts/NetworkManagerUI.cs"
+"Assets/Scripts/Scene Scripts/RegistirationManager.cs"
+"Assets/Scripts/Scene Scripts/WaitingRoomController.cs"
+"Assets/Scripts/Scene Scripts/Warning.cs"
 -langversion:9.0
 
 /deterministic

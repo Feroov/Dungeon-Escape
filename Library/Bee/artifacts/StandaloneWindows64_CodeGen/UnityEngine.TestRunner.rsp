@@ -127,6 +127,7 @@
 -define:MIRROR_85_OR_NEWER
 -define:MIRROR_86_OR_NEWER
 -define:MIRROR_89_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Unity/Unity Editor/2022.3.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

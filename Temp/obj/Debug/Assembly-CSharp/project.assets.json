@@ -1,11 +1,233 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "EncryptionTransportEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror.Transports": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EncryptionTransportEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EncryptionTransportEditor.dll": {}
+        }
+      },
+      "kcp2k/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/kcp2k.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kcp2k.dll": {}
+        }
+      },
+      "Mirror/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror.CompilerSymbols": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mirror.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.dll": {}
+        }
+      },
+      "Mirror.Authenticators/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mirror.Authenticators.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.Authenticators.dll": {}
+        }
+      },
+      "Mirror.CompilerSymbols/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Mirror.CompilerSymbols.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.CompilerSymbols.dll": {}
+        }
+      },
+      "Mirror.Components/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mirror.Components.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.Components.dll": {}
+        }
+      },
+      "Mirror.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0",
+          "Unity.Mirror.CodeGen": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mirror.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.Editor.dll": {}
+        }
+      },
+      "Mirror.Hosting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Mirror.Hosting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.Hosting.dll": {}
+        }
+      },
+      "Mirror.Transports/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0",
+          "SimpleWebTransport": "1.0.0",
+          "Telepathy": "1.0.0",
+          "kcp2k": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mirror.Transports.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mirror.Transports.dll": {}
+        }
+      },
+      "SimpleWebTransport/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SimpleWebTransport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleWebTransport.dll": {}
+        }
+      },
+      "Telepathy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Telepathy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Telepathy.dll": {}
+        }
+      },
+      "Unity.Mirror.CodeGen/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Mirror": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Mirror.CodeGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Mirror.CodeGen.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EncryptionTransportEditor/1.0.0": {
+      "type": "project",
+      "path": "EncryptionTransportEditor.csproj",
+      "msbuildProject": "EncryptionTransportEditor.csproj"
+    },
+    "kcp2k/1.0.0": {
+      "type": "project",
+      "path": "kcp2k.csproj",
+      "msbuildProject": "kcp2k.csproj"
+    },
+    "Mirror/1.0.0": {
+      "type": "project",
+      "path": "Mirror.csproj",
+      "msbuildProject": "Mirror.csproj"
+    },
+    "Mirror.Authenticators/1.0.0": {
+      "type": "project",
+      "path": "Mirror.Authenticators.csproj",
+      "msbuildProject": "Mirror.Authenticators.csproj"
+    },
+    "Mirror.CompilerSymbols/1.0.0": {
+      "type": "project",
+      "path": "Mirror.CompilerSymbols.csproj",
+      "msbuildProject": "Mirror.CompilerSymbols.csproj"
+    },
+    "Mirror.Components/1.0.0": {
+      "type": "project",
+      "path": "Mirror.Components.csproj",
+      "msbuildProject": "Mirror.Components.csproj"
+    },
+    "Mirror.Editor/1.0.0": {
+      "type": "project",
+      "path": "Mirror.Editor.csproj",
+      "msbuildProject": "Mirror.Editor.csproj"
+    },
+    "Mirror.Hosting/1.0.0": {
+      "type": "project",
+      "path": "Mirror.Hosting.csproj",
+      "msbuildProject": "Mirror.Hosting.csproj"
+    },
+    "Mirror.Transports/1.0.0": {
+      "type": "project",
+      "path": "Mirror.Transports.csproj",
+      "msbuildProject": "Mirror.Transports.csproj"
+    },
+    "SimpleWebTransport/1.0.0": {
+      "type": "project",
+      "path": "SimpleWebTransport.csproj",
+      "msbuildProject": "SimpleWebTransport.csproj"
+    },
+    "Telepathy/1.0.0": {
+      "type": "project",
+      "path": "Telepathy.csproj",
+      "msbuildProject": "Telepathy.csproj"
+    },
+    "Unity.Mirror.CodeGen/1.0.0": {
+      "type": "project",
+      "path": "Unity.Mirror.CodeGen.csproj",
+      "msbuildProject": "Unity.Mirror.CodeGen.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "EncryptionTransportEditor >= 1.0.0",
+      "Mirror >= 1.0.0",
+      "Mirror.Authenticators >= 1.0.0",
+      "Mirror.CompilerSymbols >= 1.0.0",
+      "Mirror.Components >= 1.0.0",
+      "Mirror.Editor >= 1.0.0",
+      "Mirror.Hosting >= 1.0.0",
+      "Mirror.Transports >= 1.0.0",
+      "SimpleWebTransport >= 1.0.0",
+      "Telepathy >= 1.0.0",
+      "kcp2k >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Feroov\\.nuget\\packages\\": {}
@@ -31,7 +253,41 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\EncryptionTransportEditor.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\EncryptionTransportEditor.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\kcp2k.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\kcp2k.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Authenticators.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Authenticators.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.CompilerSymbols.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.CompilerSymbols.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Components.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Components.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Editor.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Editor.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Hosting.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Hosting.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Transports.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Mirror.Transports.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\SimpleWebTransport.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\SimpleWebTransport.csproj"
+            },
+            "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Telepathy.csproj": {
+              "projectPath": "F:\\.UNITY\\Dungeon Escape\\Dungeon Escape\\Telepathy.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

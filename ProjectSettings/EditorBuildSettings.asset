@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Register.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 4d14d2a868dd0974a87d62c47a9a1f94
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 0a4bb47f44812bf43ac74b84958d24b8
+  - enabled: 1
+    path: Assets/Scenes/WaitingRoom.unity
+    guid: a5f6ef7faddaa2c44a4c7f1963ccb778
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 346cd0ea7d3263e4497aa231b358a918
   m_configObjects: {}
