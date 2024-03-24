@@ -16,6 +16,8 @@ public class QuizManager : MonoBehaviour
     public AudioClip incorrectSound;
     private AudioSource audioSource;
 
+    public Questions questionsScript;
+
     void Start()
     {
         quizPanel.SetActive(false);
@@ -23,6 +25,24 @@ public class QuizManager : MonoBehaviour
         incorrectImage.SetActive(false);
         audioSource = GetComponent<AudioSource>();
     }
+
+    public void StartRandomQuiz()
+    {
+        // Ensure there are questions available
+        if (questionsScript.triviaQuestions.Count == 0)
+        {
+            Debug.LogError("No questions available.");
+            return;
+        }
+
+        // Select a random question
+        int index = Random.Range(0, questionsScript.triviaQuestions.Count);
+        TriviaQuestion randomQuestion = questionsScript.triviaQuestions[index];
+
+        // Start the quiz with the selected question
+        StartQuiz(randomQuestion.question, randomQuestion.answers, randomQuestion.correctAnswerIndex);
+    }
+
 
     // Call this method to start the quiz
     public void StartQuiz(string question, string[] answers, int correctAnswerIndex)

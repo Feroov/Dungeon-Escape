@@ -393,6 +393,7 @@
 "Assets/Scripts/Player Scripts/PlayerController.cs"
 "Assets/Scripts/Player Scripts/PlayerData.cs"
 "Assets/Scripts/Player Scripts/PlayerModeManager.cs"
+"Assets/Scripts/Player Scripts/PlayerQuizHandler.cs"
 "Assets/Scripts/Player Scripts/UsernameDisplay.cs"
 "Assets/Scripts/Scene Scripts/AutoNetworkManager.cs"
 "Assets/Scripts/Scene Scripts/BackgroundMusicController.cs"

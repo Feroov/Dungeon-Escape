@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - Billboard
     - ChatManager
     - Crouch
+    - DoorQuiz
     - FirstPersonAudio
     - FirstPersonLook
     - FirstPersonMovement
@@ -14,6 +15,9 @@ ScriptsOnlyBuild:
     - Main
     - NetworkManagerUI
     - PlayerData
+    - PlayerQuizHandler
+    - Questions
+    - QuizManager
     - RegistrationManager
     - UsernameDisplay
     - WaitingRoomController
@@ -46,7 +50,6 @@ ScriptsOnlyBuild:
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
-    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -143,6 +146,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -150,18 +157,48 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1678}
+    - Class: 114
       Script: {instanceID: 2794}
+    - Class: 114
+      Script: {instanceID: 3012}
+    - Class: 114
+      Script: {instanceID: 3330}
+    - Class: 114
+      Script: {instanceID: 4688}
+    - Class: 114
+      Script: {instanceID: 5476}
+    - Class: 114
+      Script: {instanceID: 6080}
+    - Class: 114
+      Script: {instanceID: 6262}
     - Class: 114
       Script: {instanceID: 6302}
     - Class: 114
       Script: {instanceID: 6614}
+    - Class: 114
+      Script: {instanceID: 67346}
+    - Class: 114
+      Script: {instanceID: 67358}
+    - Class: 114
+      Script: {instanceID: 100248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 122
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Login.unity:
     - Class: 1
@@ -319,6 +356,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 41832}
     - Class: 114
       Script: {instanceID: 60506}
+    - Class: 114
+      Script: {instanceID: 112814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 122
@@ -694,7 +733,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3b689f3c16611b01496091c83142c829
+      Hash: 78c6706ff52091bcc692419b60ccec79
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FirstPersonLook
@@ -1754,6 +1793,36 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerData
+  - hash:
+      serializedVersion: 2
+      Hash: e01eb5cfc4f7dee6b185ca3f753d4003
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QuizManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1cb653bcbe7e9137725ee47c9f84d303
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DoorQuiz
+  - hash:
+      serializedVersion: 2
+      Hash: 42c2a41f621882fed43722baef86673e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 3034064d3803abba9aa93bdcf0876645
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Questions
+  - hash:
+      serializedVersion: 2
+      Hash: bcc085790861b6716d7cbd20aa2596b4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerQuizHandler
   platform: 19
   scenePathNames:
   - Assets/Scenes/Register.unity

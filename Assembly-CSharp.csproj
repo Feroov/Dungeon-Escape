@@ -91,6 +91,7 @@
     <Compile Include="Assets\Prefabs\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\Environment Scripts\Questions.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerQuizHandler.cs" />
     <Compile Include="Assets\Scripts\Scene Scripts\RegistirationManager.cs" />
   </ItemGroup>
   <ItemGroup>
